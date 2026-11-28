@@ -1,0 +1,39 @@
+# Build outputs
+build/
+out/
+cmake-build-*/
+install/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.so
+*.dylib
+*.a
+
+# Dependency managers & tool caches
+vcpkg_installed/
+.cache/
+compile_commands.json
+
+# IDEs and editors
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+
+# Graphics captures, local dumps, and temporary artifacts
+*.rdc
+*.spv
+*.tmp
+*.log
+crashdumps/
+.env
+.env.*
